@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #799dcc;
+}
+
+.custom-img {
+    margin-top: 2em;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}   
+
+#question-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#start-button {
+    margin-top: 4em;
+}
+
+.box-bth {
+    margin-top: 7em;
+}
+
+.bth-answer {
+    display: none;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+    margin: 0.5em;
+    height: 50px;
+    width: 120px;
+}
+
+#yes-button {
+    color: #ffffff;
+    background: #25661d;
+}
+
+#yes-button:hover {
+    border: 1px solid #ffffff;
+    background: #438545;
+}
+
+#no-button {
+    color: #ffffff;
+    background: #c94525;
+}
+
+#no-button:hover {
+    border: 1px solid #ffffff;
+    background: #97351c;
+}
+
+.modal {
+    display: none;
+    background: #00000083;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-content {
+    background: #799dcc;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 15px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.close {
+    font-size: 1.3em;
+    color: #000000;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.close:hover {
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.modal-body {
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.custom-input {
+    font-size: 0.8em; 
+    background: #799dcc; 
+    padding: 0.3em;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+    font-weight: bold; 
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary{    
+    background: #22538b;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background: #c94525;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background: #cf674d;
+}
+
+footer {
+    font-family: "Space Mono", monospace;
+    background-color: #33607a;
+    color: #ffaf19;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.myname {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.3em;
+    font-weight: bold;
+    color: #e7e7e7b0;
+}
